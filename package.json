@@ -1,0 +1,17 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress Automation by Testersdock",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Alapan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "cypress-downloadfile": "^1.2.0",
+    "cypress-file-upload": "^4.1.1"
+  },
+  "dependencies": {}
+}

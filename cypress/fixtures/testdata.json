@@ -1,0 +1,7 @@
+{
+    "username": "Admin",
+    "password": "admin123",
+    "welcomeText": "Welcome",
+    "quickLaunch": ["Assign Leave", "Leave List", "Timesheets", "Apply Leave", "My Leave", "My Timesheet"],
+    "empDistPieChart": ["40%", "20%", "13%", "13%", "13%"]
+}
