@@ -1,5 +1,10 @@
 # Cypress-Automation
-- Cypress is a next generation front end testing tool built for the modern web.
+- Cypress is a next generation front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress.
+
+# How to Start
+1. Clone the project
+2. `npm i` - Install all the dependencies
+3. Run `npm test`
 
 # Articles on Cypress
 - [How to Install Cypress](https://testersdock.com/how-to-install-cypress/)
