@@ -1,5 +1,5 @@
 # Cypress-Automation
-- Cypress is a next generation front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress.
+Cypress is a next generation front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress.
 
 # How to Start
 1. Clone the project
@@ -17,3 +17,4 @@
 - [Conditional Testing (If Else) in Cypress](https://testersdock.com/cypress-conditional-if-else-testing/)
 - [How to upload a file in Cypress](https://testersdock.com/cypress-file-upload/)
 - [How to download a file in Cypress](https://testersdock.com/cypress-file-download/)
+- [API Testing in Cypress](https://testersdock.com/cypress-api-testing/)
