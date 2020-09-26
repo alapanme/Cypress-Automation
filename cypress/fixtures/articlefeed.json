@@ -1,0 +1,24 @@
+{
+   "articles":[
+      {
+         "title":"Hi",
+         "slug":"hi-5h5nba",
+         "body":"testing",
+         "createdAt":"2020-09-26T03:18:26.635Z",
+         "updatedAt":"2020-09-26T03:18:26.635Z",
+         "tagList":[
+            
+         ],
+         "description":"This is a test description",
+         "author":{
+            "username":"testersdock",
+            "bio":null,
+            "image":"https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following":false
+         },
+         "favorited":false,
+         "favoritesCount":10
+      }
+   ],
+   "articlesCount":500
+}

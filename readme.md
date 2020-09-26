@@ -19,3 +19,4 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to download a file in Cypress](https://testersdock.com/cypress-file-download/)
 - [API Testing in Cypress](https://testersdock.com/cypress-api-testing/)
 - [How to chain Multiple APIs in Cypress](https://testersdock.com/cypress-chain-multiple-api/)
+- [Mock API Response in Cypress using cy.server() and cy.route()](https://testersdock.com/cypress-mock-api/)
