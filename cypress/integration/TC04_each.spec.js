@@ -22,6 +22,9 @@ describe('Example to demonstrate the use each in Cypress', function () {
         })
     })
 
+    /*Please check the pie chart percentage values before execution.
+    I realized it very late that the pie chart values changes after few days.
+    Update the empDistPieChart from the testdata.json file with the latest values.*/
     it('Validate the Employee Distribution by Subunit Piechart Values and sum of percentage values', function () {
         var total = 0
         cy.get('.pieLabel').each(($el, index) => {

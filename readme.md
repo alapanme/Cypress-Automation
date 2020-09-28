@@ -20,3 +20,4 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [API Testing in Cypress](https://testersdock.com/cypress-api-testing/)
 - [How to chain Multiple APIs in Cypress](https://testersdock.com/cypress-chain-multiple-api/)
 - [Mock API Response in Cypress using cy.server() and cy.route()](https://testersdock.com/cypress-mock-api/)
+- [How to handle JS Alert, Confirm and Prompt in Cypress](https://testersdock.com/cypress-javascript-alert-confirm-prompt/)
