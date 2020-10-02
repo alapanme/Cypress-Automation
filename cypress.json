@@ -1,4 +1,19 @@
 {
     "watchForFileChanges": false,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "testFiles": [
+    "TC01.spec.js",
+    "TC02_fixtures.spec.js",
+    "TC03_writeReadFile.spec.js",
+    "TC04_each.spec.js",
+    "TC05_conditionalTesting.spec.js",
+    "TC06_fileUpload.spec.js",
+    "TC07_fileDownload.spec.js",
+    "TC08_apiTesting.spec.js",
+    "TC09_apiChaining.spec.js",
+    "TC_10_apiMocking.spec.js",
+    "TC_11_jsAlertConfirmPrompt.spec.js",
+    "TC_12_usingskip.spec.js",
+    "TC_13_usingOnly.spec.js"
+    ]
 }
