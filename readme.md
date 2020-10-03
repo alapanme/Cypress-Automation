@@ -23,3 +23,6 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to handle JS Alert, Confirm and Prompt in Cypress](https://testersdock.com/cypress-javascript-alert-confirm-prompt/)
 - [How to use Skip and Only in Cypress](https://testersdock.com/skip-only-cypress/)
 - [How to execute Cypress Tests in order](https://testersdock.com/cypress-execute-tests-in-order/)
+
+# Running All Specs
+- While running all tests, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.
