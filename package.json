@@ -9,7 +9,7 @@
   "author": "Alapan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^5.3.0",
+    "cypress": "^5.4.0",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^4.1.1"
   },
