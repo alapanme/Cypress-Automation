@@ -16,7 +16,8 @@
     "TC_12_usingskip.spec.js",
     "TC_13_usingOnly.spec.js",
     "TC_14_shadowDOM.spec.js",
-    "TC_15_numberOfRetries.spec.js"
+    "TC_15_numberOfRetries.spec.js",
+    "TC_16_iFrames.spec.js"
     ],
     "retries": 1
 }
