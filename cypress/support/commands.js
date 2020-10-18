@@ -24,6 +24,17 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
+//For File Import
 import 'cypress-file-upload';
+
+//For File Download
 require('cypress-downloadfile/lib/downloadFileCommand');
+
+//For handling iFrames
+Cypress.Commands.add('getIframe', (iframe) => {
+    return cy.get(iframe)
+        .its('0.contentDocument.body')
+        .should('be.visible')
+        .then(cy.wrap);
+})
 
