@@ -19,5 +19,11 @@
     "TC_15_numberOfRetries.spec.js",
     "TC_16_iFrames.spec.js"
     ],
-    "retries": 1
+    "retries": 1,
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
 }
