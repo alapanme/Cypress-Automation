@@ -25,7 +25,8 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to execute Cypress Tests in order](https://testersdock.com/cypress-execute-tests-in-order/)
 - [How to handle Shadow DOM in Cypress](https://testersdock.com/cypress-shadow-dom/)
 - [How to retry tests X number of times in Cypress](https://testersdock.com/test-retries-in-cypress/)
-- [How to handle Iframes in CYpress](https://testersdock.com/iframes-cypress/)
+- [How to handle Iframes in Cypress](https://testersdock.com/iframes-cypress/)
+- [How to generate HTML reports in Cypress](https://testersdock.com/html-reports-cypress/)
 
 # Running All Specs
 - While running all tests, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.
