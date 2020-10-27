@@ -1,4 +1,4 @@
-describe('Example for writeFile and readFile', function () {
+describe('Example for writeFile and readFile (Smoke,E2E)', function () {
 
     it('Write to a text file test1.txt using writeFile', function () {
         cy.writeFile('cypress/fixtures/test1.txt', 'Testersdock.com\n')

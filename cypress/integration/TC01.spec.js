@@ -1,4 +1,4 @@
-describe('Search for Google Wiki page from Wikipedia website', () => {
+describe('Search for Google Wiki page from Wikipedia website (Smoke)', () => {
     before(() => {
         cy.visit('https://wikipedia.org')
     })

@@ -1,4 +1,4 @@
-describe('Login to OrangeHRM website', function () {
+describe('Login to OrangeHRM website (E2E)', function () {
     before(function () {
         cy.visit('https://opensource-demo.orangehrmlive.com/')
         cy.fixture('testdata').then(function (testdata) {
