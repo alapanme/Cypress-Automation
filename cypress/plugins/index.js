@@ -20,7 +20,14 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
 }
 
+//For Cypress file Download
 const { downloadFile } = require('cypress-downloadfile/lib/addPlugin')
 module.exports = (on, config) => {
   on('task', { downloadFile })
+}
+
+//For Adding Tags to Tests
+const selectTestsWithGrep = require('cypress-select-tests/grep')
+module.exports = (on, config) => {
+  on('file:preprocessor', selectTestsWithGrep(config))
 }

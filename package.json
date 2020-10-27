@@ -16,6 +16,7 @@
     "cypress": "^5.4.0",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^4.1.1",
+    "cypress-select-tests": "^1.5.8",
     "mocha": "^8.2.0",
     "mochawesome": "^6.1.1",
     "mochawesome-merge": "^4.2.0",
