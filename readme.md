@@ -27,6 +27,7 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to retry tests X number of times in Cypress](https://testersdock.com/test-retries-in-cypress/)
 - [How to handle Iframes in Cypress](https://testersdock.com/iframes-cypress/)
 - [How to generate HTML reports in Cypress](https://testersdock.com/html-reports-cypress/)
+- [How to Add Tags like Smoke,E2E to Cypress Tests](https://testersdock.com/cypress-test-tags/)
 
 # Running All Specs
 - While running all tests, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.
