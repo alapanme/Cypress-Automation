@@ -17,7 +17,8 @@
     "TC_13_usingOnly.spec.js",
     "TC_14_shadowDOM.spec.js",
     "TC_15_numberOfRetries.spec.js",
-    "TC_16_iFrames.spec.js"
+    "TC_16_iFrames.spec.js",
+    "TC_17_pageObjec1.spec.js"
     ],
     "retries": 1,
     "reporter": "../node_modules/mochawesome/src/mochawesome.js",
@@ -25,5 +26,6 @@
         "overwrite": false,
         "html": false,
         "json": true
-    }
+    },
+    "baseUrl": "https://opensource-demo.orangehrmlive.com/"
 }
