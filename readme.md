@@ -29,6 +29,7 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to generate HTML reports in Cypress](https://testersdock.com/html-reports-cypress/)
 - [How to Add Tags like Smoke,E2E to Cypress Tests](https://testersdock.com/cypress-test-tags/)
 - [Cypress Page Object with Locator Functions and Custom Commands](https://testersdock.com/cypress-page-object-with-locator-function-and-custom-command/)
+-[Cypress Dashboard](https://testersdock.com/cypress-dashboard/)
 
 # Running All Specs
-- While running all tests, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.
+- When you're running your tests from the Test Runner, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.
