@@ -1,7 +1,7 @@
 {
-    "watchForFileChanges": false,
-    "chromeWebSecurity": false,
-    "testFiles": [
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "testFiles": [
     "TC01.spec.js",
     "TC02_fixtures.spec.js",
     "TC03_writeReadFile.spec.js",
@@ -18,14 +18,15 @@
     "TC_14_shadowDOM.spec.js",
     "TC_15_numberOfRetries.spec.js",
     "TC_16_iFrames.spec.js",
-    "TC_17_pageObjec1.spec.js"
-    ],
-    "retries": 1,
-    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
-    "reporterOptions": {
-        "overwrite": false,
-        "html": false,
-        "json": true
-    },
-    "baseUrl": "https://opensource-demo.orangehrmlive.com/"
+    "TC_17_pageObject1.spec.js"
+  ],
+  "retries": 1,
+  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+  "projectId": "d5zibb"
 }
