@@ -4,7 +4,8 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 # How to Start
 1. Clone the project
 2. `npm i` - Install all the dependencies
-3. Run `npm test` to execute the tests in Test Runner | Run `npx cypress run` to execute the tests in CLI.
+3. Run `npm test` to execute the tests in Test Runner | Run `npx cypress run` to execute the tests in CLI
+4. To create HTML reports execute first `npm run test:cli` and then `npm run create:html:report`
 
 # Articles on Cypress
 - [How to Install Cypress](https://testersdock.com/how-to-install-cypress/)
