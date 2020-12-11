@@ -5,3 +5,4 @@ cypress/screenshots
 TestReport/
 mochawesome-report/
 cypress-combined-report.json
+cypress/integration/dummy.js

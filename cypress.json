@@ -18,7 +18,8 @@
     "TC_14_shadowDOM.spec.js",
     "TC_15_numberOfRetries.spec.js",
     "TC_16_iFrames.spec.js",
-    "TC_17_pageObject1.spec.js"
+    "TC_17_pageObject1.spec.js",
+    "dummy.js"
   ],
   "retries": 1,
   "reporter": "../node_modules/mochawesome/src/mochawesome.js",
