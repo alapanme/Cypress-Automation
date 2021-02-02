@@ -13,7 +13,7 @@
   "author": "Alapan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.3.0",
+    "cypress": "^6.4.0",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^4.1.1",
     "cypress-select-tests": "^1.5.8",
