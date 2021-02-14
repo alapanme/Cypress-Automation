@@ -19,6 +19,7 @@
     "TC_15_numberOfRetries.spec.js",
     "TC_16_iFrames.spec.js",
     "TC_17_pageObject1.spec.js",
+    "TC_18_cypressStudio.spec.js",
     "dummy.js"
   ],
   "retries": 1,
@@ -29,5 +30,6 @@
     "json": true
   },
   "baseUrl": "https://opensource-demo.orangehrmlive.com/",
-  "projectId": "d5zibb"
+  "projectId": "d5zibb",
+  "experimentalStudio": true
 }
