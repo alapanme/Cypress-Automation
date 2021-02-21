@@ -2,6 +2,7 @@
   "watchForFileChanges": false,
   "chromeWebSecurity": false,
   "testFiles": [
+    "**/*.{feature,features}",
     "TC01.spec.js",
     "TC02_fixtures.spec.js",
     "TC03_writeReadFile.spec.js",

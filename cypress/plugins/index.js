@@ -26,7 +26,11 @@ const { downloadFile } = require('cypress-downloadfile/lib/addPlugin')
 //For Adding Tags to Tests
 const selectTestsWithGrep = require('cypress-select-tests/grep')
 
+//For cucumber integration
+const cucumber = require('cypress-cucumber-preprocessor').default
+
 module.exports = (on, config) => {
   on('task', { downloadFile }); //Cypress file Download
   on('file:preprocessor', selectTestsWithGrep(config)); //Adding Tags to Tests
+  on('file:preprocessor', cucumber()); //For cypress cucumber preprocessor
 }
