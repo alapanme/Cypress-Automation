@@ -13,7 +13,7 @@
   "author": "Alapan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.5.0",
+    "cypress": "^6.8.0",
     "cypress-cucumber-preprocessor": "^4.0.1",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^4.1.1",
@@ -25,5 +25,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
-    }
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
 }
