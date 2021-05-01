@@ -1,17 +1,21 @@
-describe('Validate Login and Logout on OrangeHRM website', function () {
+import TestFilters from '../support/filterTests.js'
 
-    beforeEach(function () {
-        cy.fixture('testdata').then(function (testdata) {
-            this.testdata = testdata
+TestFilters([], () => {
+    describe('Validate Login and Logout on OrangeHRM website', function () {
+
+        beforeEach(function () {
+            cy.fixture('testdata').then(function (testdata) {
+                this.testdata = testdata
+            })
         })
-    })
 
-    it('Validate successful Login', function () {
-        cy.login(this.testdata)
-    })
+        it('Validate successful Login', function () {
+            cy.login(this.testdata)
+        })
 
-    it('Validate successful Logout', function () {
-        cy.logout()
+        it('Validate successful Logout', function () {
+            cy.logout()
+        })
+
     })
-    
 })
