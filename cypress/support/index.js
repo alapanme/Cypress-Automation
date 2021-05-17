@@ -17,6 +17,7 @@
 import './commands'
 import '../integration/utils/login.js'
 import '../integration/utils/dashboard.js'
+import "cypress-real-events/support"
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

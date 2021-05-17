@@ -22,6 +22,7 @@
     "TC_17_pageObject1.spec.js",
     "TC_18_cypressStudio.spec.js",
     "TC_19_intercept.spec.js",
+    "TC_20_hoverOverElement.spec.js",
     "dummy.js"
   ],
   "retries": 1,
