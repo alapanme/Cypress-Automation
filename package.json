@@ -13,10 +13,11 @@
   "author": "Alapan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.2.0",
+    "cypress": "^7.3.0",
     "cypress-cucumber-preprocessor": "^4.0.3",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^5.0.6",
+    "cypress-real-events": "^1.4.0",
     "cypress-select-tests": "^1.7.0",
     "mocha": "^8.3.2",
     "mochawesome": "^6.2.2",
