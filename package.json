@@ -22,7 +22,8 @@
     "mocha": "^8.3.2",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "^5.2.0"
+    "mochawesome-report-generator": "^5.2.0",
+    "mysql": "^2.18.1"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
