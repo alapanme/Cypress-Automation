@@ -13,7 +13,8 @@
   "author": "Alapan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.2.0",
+    "@4tw/cypress-drag-drop": "^1.8.0",
+    "cypress": "^8.3.0",
     "cypress-cucumber-preprocessor": "^4.2.0",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^5.0.8",
