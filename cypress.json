@@ -25,7 +25,8 @@
     "TC_20_hoverOverElement.spec.js",
     "TC_21_databaseTesting.spec.js",
     "TC_22_parentParentsChildren.spec.js",
-    "TC_23_dragAndDrop.spec.js"
+    "TC_23_dragAndDrop.spec.js",
+    "TC_24_newBrowserTabWindow.spec.js"
   ],
   "retries": 1,
   "reporter": "../node_modules/mochawesome/src/mochawesome.js",
