@@ -40,6 +40,7 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to use parents(), parent() and children() commands in Cypress](https://testersdock.com/cypress-parents-parent-children/)
 - [How to perform Drag and Drop on HTML and Angular sites with Cypress](https://testersdock.com/cypress-drag-and-drop-html-angular/)
 - [How to handle new browser tab and window in Cypress](https://testersdock.com/cypress-new-window/)
+- [How to use filter(), find() and within() commands in Cypress](https://testersdock.com/cypress-filter-find-within/)
 
 # Running All Specs
 - When you're running your tests from the Test Runner, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.

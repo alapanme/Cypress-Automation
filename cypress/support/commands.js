@@ -59,3 +59,11 @@ Cypress.Commands.add('draganddrop', (dragSelector, dropSelector) => {
     draggable.dispatchEvent(new MouseEvent('mouseup'));
     return cy.get(dropSelector);
 })
+
+//Login Custom Command
+Cypress.Commands.add('loginOrangeCRM', (username, password) => {
+    cy.get('#txtUsername').type(username)
+    cy.get('#txtPassword').type(password)
+    cy.get('#btnLogin').click()
+    cy.get('#welcome').should('be.visible')
+})
