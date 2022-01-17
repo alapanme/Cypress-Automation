@@ -1,6 +1,6 @@
 describe('Example to demonstrate filter, find and within commands in cypress', () => {
 
-    it('Using filter with selector', function () {
+    it('Using filter with selector', { tags: 'regression' }, function () {
         cy.visit('/')
         cy.loginOrangeCRM('Admin', 'admin123')
         cy.get('.legendColorBox', { timeout: 7000 }).should('be.visible')

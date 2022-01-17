@@ -1,6 +1,6 @@
 import { recurse } from 'cypress-recurse'
 
-describe('Example to demonstrate recursion in Cypress', () => {
+describe('Example to demonstrate recursion in Cypress', { tags: 'smoke' }, () => {
     it('Validate the number 3 using recursion', function () {
         cy.visit('https://alapanme.github.io/random-number.html')
         recurse(

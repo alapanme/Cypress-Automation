@@ -18,6 +18,7 @@ import './commands'
 import '../integration/utils/login.js'
 import '../integration/utils/dashboard.js'
 import "cypress-real-events/support"
+require('cypress-grep')()
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

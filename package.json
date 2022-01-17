@@ -18,6 +18,7 @@
     "cypress-cucumber-preprocessor": "^4.2.0",
     "cypress-downloadfile": "^1.2.0",
     "cypress-file-upload": "^5.0.8",
+    "cypress-grep": "^2.13.1",
     "cypress-real-events": "^1.5.1",
     "cypress-recurse": "^1.8.1",
     "cypress-select-tests": "^1.7.1",

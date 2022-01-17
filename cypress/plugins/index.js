@@ -53,4 +53,5 @@ module.exports = (on, config) => {
   on('file:preprocessor', selectTestsWithGrep(config)); //Adding Tags to Tests
   on('file:preprocessor', cucumber()); //For cypress cucumber preprocessor
   on('task', { queryDb: query => { return queryTestDb(query, config) }, }); //For running sql query
+  require('cypress-grep/src/plugin')(config); return config //For cypress-grep to add tags to test
 }

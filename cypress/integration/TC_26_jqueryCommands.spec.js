@@ -1,6 +1,6 @@
 describe('Example to demonstrate commonly used JQuery commands in cypress', () => {
 
-    it('Check if a button is disabled or enabled', function () {
+    it('Check if a button is disabled or enabled', { tags: 'smoke' }, function () {
         cy.visit('https://getbootstrap.com/docs/4.0/components/buttons/#disabled-state')
         cy.get('button.btn.btn-lg.btn-primary').eq(2).then(($btn) => {
             if ($btn.is(':disabled')) { cy.log('Button is disabled') }
