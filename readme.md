@@ -46,4 +46,4 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to handle basic auth in Cypress](https://testersdock.com/cypress-basic-auth/)
 
 # Running All Specs
-- When you're running your tests from the Test Runner, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.
+- When you're running your tests from the Test Runner, make sure that none of the tests has `only`, as this basically tells cypress to run that particular test and skip all others.# Cypress-FrameWork
