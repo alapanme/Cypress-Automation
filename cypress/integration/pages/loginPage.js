@@ -10,6 +10,6 @@ class loginPage {
 
     loginBtn() {
         return cy.get('#btnLogin')
-    }
+    } 
 }
 export default loginPage
