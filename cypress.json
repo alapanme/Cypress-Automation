@@ -39,7 +39,7 @@
     "html": false,
     "json": true
   },
-  "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/", 
   "projectId": "d5zibb",
   "experimentalStudio": true,
   "env": {
