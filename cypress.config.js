@@ -11,7 +11,6 @@ module.exports = defineConfig({
     json: true,
   },
   projectId: 'd5zibb',
-  experimentalStudio: true,
   env: {
     db: {
       host: 'db4free.net',
