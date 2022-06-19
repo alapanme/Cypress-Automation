@@ -26,9 +26,6 @@ const { downloadFile } = require('cypress-downloadfile/lib/addPlugin')
 //For Adding Tags to Tests
 const selectTestsWithGrep = require('cypress-select-tests/grep')
 
-//For cucumber integration
-const cucumber = require('cypress-cucumber-preprocessor').default
-
 //For connecting to SQL Server
 const mysql = require('mysql')
 function queryTestDb(query, config) {
@@ -51,7 +48,23 @@ function queryTestDb(query, config) {
 module.exports = (on, config) => {
   on('task', { downloadFile }); //Cypress file Download
   on('file:preprocessor', selectTestsWithGrep(config)); //Adding Tags to Tests
-  on('file:preprocessor', cucumber()); //For cypress cucumber preprocessor
   on('task', { queryDb: query => { return queryTestDb(query, config) }, }); //For running sql query
   require('cypress-grep/src/plugin')(config); return config //For cypress-grep to add tags to test
+}
+
+//For Cucumber Integration
+const createEsbuildPlugin = require('@badeball/cypress-cucumber-preprocessor/esbuild').createEsbuildPlugin;
+const createBundler = require('@bahmutov/cypress-esbuild-preprocessor');
+const nodePolyfills = require('@esbuild-plugins/node-modules-polyfill').NodeModulesPolyfillPlugin;
+const addCucumberPreprocessorPlugin = require('@badeball/cypress-cucumber-preprocessor').addCucumberPreprocessorPlugin;
+module.exports = async (on, config) => {
+  await addCucumberPreprocessorPlugin(on, config); // to allow json to be produced
+  // To use esBuild for the bundler when preprocessing
+  on(
+    'file:preprocessor',
+    createBundler({
+      plugins: [nodePolyfills(), createEsbuildPlugin(config)],
+    }),
+  );
+  return config;
 }

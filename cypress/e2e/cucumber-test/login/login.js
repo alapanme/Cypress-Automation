@@ -1,4 +1,4 @@
-import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
+import { Given, When, Then, And } from "@badeball/cypress-cucumber-preprocessor"
 
 Given('User is at the login page', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/')

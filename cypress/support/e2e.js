@@ -15,8 +15,8 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import '../integration/utils/login.js'
-import '../integration/utils/dashboard.js'
+import '../e2e/utils/login.js'
+import '../e2e/utils/dashboard.js'
 import "cypress-real-events/support"
 require('cypress-grep')()
 
