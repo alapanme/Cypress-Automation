@@ -9,3 +9,4 @@ cypress/integration/dummy.js
 cypress/fixtures/url.json
 cypress/fixtures/data.txt
 abcd.html
+dummy.cy.js
