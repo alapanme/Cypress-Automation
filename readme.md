@@ -24,7 +24,7 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [Mock API Response in Cypress using cy.server() and cy.route()](https://testersdock.com/cypress-mock-api/)
 - [How to handle JS Alert, Confirm and Prompt in Cypress](https://testersdock.com/cypress-javascript-alert-confirm-prompt/)
 - [How to use Skip and Only in Cypress](https://testersdock.com/skip-only-cypress/)
-- [How to execute Cypress Tests in order](https://testersdock.com/cypress-execute-tests-in-order/)
+- [How to execute Cypress Tests in order(update for cypress 10)](https://testersdock.com/cypress-execute-tests-in-order/)
 - [How to handle Shadow DOM in Cypress](https://testersdock.com/cypress-shadow-dom/)
 - [How to retry tests X number of times in Cypress](https://testersdock.com/test-retries-in-cypress/)
 - [How to handle Iframes in Cypress](https://testersdock.com/iframes-cypress/)
