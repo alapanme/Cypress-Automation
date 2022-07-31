@@ -32,7 +32,7 @@ Cypress is a next generation front end testing tool built for the modern web. Th
 - [How to Add Tags like Smoke,E2E to Cypress Tests](https://testersdock.com/cypress-test-tags/)
 - [Cypress Page Object with Locator Functions and Custom Commands](https://testersdock.com/cypress-page-object-with-locator-function-and-custom-command/)
 - [Cypress Dashboard](https://testersdock.com/cypress-dashboard/)
-- [How to visually generate tests with no coding in Cypress Studio](https://testersdock.com/cypress-studio/)
+- [How to visually generate tests with no coding in Cypress Studio(Cypress 10 alternative)](https://testersdock.com/cypress-studio/)
 - [How to mock an API using cy.intercept()](https://testersdock.com/cypress-mock-api-intercept/)
 - [How to integrate cypress with cucumber(Cypress 10 Upgrade)](https://testersdock.com/cypress-cucumber-bdd/)
 - [How to hover over elements in Cypress](https://testersdock.com/cypress-hover/)
